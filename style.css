@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kalam:wght@700&family=Mooli&family=Poppins:wght@700&family=Wavefont:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Josefin+Sans&family=Kalam:wght@700&family=Mooli&family=Poppins:wght@700&family=Wavefont:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: rgb(249, 241, 241);
+}
+
+.sidebar {
+    position: absolute;
+    height: 100vh;
+    margin-top: 20px;
+    background-color: #eadada;
+    /* width: 300px; */
+    font-family: 'Josefin Sans', sans-serif;
+    transition: transform 0.2s ease-in;
+    border: 2px solid red;
+    border-radius: 30px;
+    
+
+}
+
+.sidebar nav {
+    padding: 45px;
+    
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+  
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: hwb(245 3% 4%);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant-emoji:emoji ;
+}
+
+.sidebar nav li a:hover {
+    background-color: blueviolet;
+    border-radius: 23px;
+    border: 2px solid red;
+    padding: 0 10px;
+    
+}
+
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.info-container {
+    /* font-family: 'Inconsolata', monospace; */
+    /* background-color: rgb(240, 108, 123); */
+    height: 50vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.hello {
+    font-size: 1em;
+    font-weight: 900;
+    font-family: 'Inconsolata', monospace;
+}
+
+.name {
+    font-size: 0.5em;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 25px;
+}
+
+.moreabout {
+    font-size: 0.5em;
+    font-family: 'Inconsolata', monospace;
+    margin: 23px;
+    font-weight: 900;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 8px 14px;
+    margin: 3px;
+    /* border: 2px solid red; */
+    color: #09090a;
+    background-color: rgb(61, 206, 254);
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(16, 241, 8);
+
+}
+
+.btn-sm {
+    width: auto;
+    height: 32px;
+    font-size: 12px;
+    padding: 8px 13px;
+    border-radius: 15px;
+    background-color: rgb(32, 137, 242);
+}
+
+.btn-sm a {
+    text-decoration: none;
+    color: white;
+}
+
+.devPic img {
+    height: 50vh;
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    margin:0 88px
+}
+
+.contactform h1 {
+    /* text-align: center; */
+    padding: 12px 0;
+}
+
+.contactform div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+
+#form-check {
+    flex-direction: row
+}
+
+#form-check input {
+    /* display: ; */
+    width: 24px;
+    margin: 3px 0;
+}
+
+#emailHelp {
+    color: #0f0909;
+    font-size: 12px;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+.blogitem {
+    margin: 20px;
+}
+.blogcontainer{
+    margin: 0 90px;
+}
+
+h2 {
+
+}
+
+.devInfo h1 {
+    /* margin: 2px; */
+}
+/* My Intro */
+.intro{
+    margin: 50px 90px;
+}
+.intro h2 {
+    margin: 0 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.intro p {
+    margin: 0 12px;
+    margin: 6px;
+    font-style: italic;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', Sans-Serif;
+    /* font-weight: bold; */
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skilItem {
+    display: flex;
+    padding: 10px;
+    /* justify-content: center; */
+    align-items: center;
+   
+}
+
+.skill {
+    width: 300px;
+    height: 8px;
+    background-color: red;
+    border: 2px solid black;
+   
+}
+
+.hundred {
+    width: 300px;
+    background-color: rgb(0, 117, 4);
+}
+.seventy{
+    width: 280px;
+    background-color: brown;
+}
+.fifty {
+    width: 260px;
+background-color: darkturquoise;
+}
+.forty{
+    width: 180px;
+    background-color: blue;
+}
+.t5{
+    width: 160px;
+    background-color: purple;
+}
+.sidebarGo{
+    transform:translate(-443px, 0px);
+    position: absolute;
+}
+.hemburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.close{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.hem{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.emoji{
+    .emoji {
+        font-size: 40px;
+        margin-top: 8px;
+        font-variant-emoji: emoji;
+     }
+}
+
+@media (max-width: 700px){
+    *{
+
+        /* background-color: rgb(239, 115, 115); */
+    }
+    .button{
+        font-size: 5px;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic{
+        display: none;
+    }
+    .intro, .blogcontainer, .contactform{
+        margin: 50px 90px;
+        font-size: 10px;
+    }
+   /* .sidebar{
+        transform:translate(-443px, 0px);
+        position: absolute;
+    }  */
+}
